@@ -1,7 +1,15 @@
-import React from "react";
+import Hero from "@/components/homepage/hero";
+import FeaturedPosts from "@/components/homepage/featured-posts";
+
+import React, { Fragment } from "react";
 
 const HomePage = () => {
-  return <div></div>;
+  return (
+    <Fragment>
+      <Hero />
+      <FeaturedPosts />
+    </Fragment>
+  );
 };
 
 export default HomePage;
